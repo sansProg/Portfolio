@@ -27,7 +27,7 @@
   border-bottom: 1px solid #ffc800;
   opacity: 1;
 }
-a{
+.card-body a{
   color: #ffc800;
   text-decoration: underline;
 }
