@@ -27,6 +27,10 @@
   border-bottom: 1px solid #ffc800;
   opacity: 1;
 }
+a{
+  color: #ffc800;
+  text-decoration: underline;
+}
 
 .container-fluid {
   padding: 1% 15%;
