@@ -72,13 +72,10 @@ h2 {
 .profile {
   width: 60%;
   margin-bottom: 15%;
-  margin-right: 0;
-  padding-left: 10%;
 }
 .about-text {
   line-height: 2;
-  margin-left: 0;
-  padding-right: 15%;
+
   padding-top: 2%;
 }
 
@@ -102,6 +99,7 @@ p {
   text-align: center;
   background-color: #dfe8f1;
 }
+
 .project-image {
   border-radius: 2%;
   width: 80%;
@@ -208,16 +206,10 @@ ul#skills-list li {
   background-color: #091c31;
   padding-bottom: 3%;
 }
-.card-div {
-  margin-left: 15%;
-  margin-top: 5%;
-}
+
 .card {
-  padding: 5%;
-  margin: 5%;
   background-color: #112d4e;
-  height: 80%;
-  width: 110%;
+  margin-bottom: 10%;
   border: 1px solid #a2c0e6;
 }
 .card-header {
@@ -231,25 +223,14 @@ ul#skills-list li {
   opacity: 80%;
 }
 
-@media (max-width: 1028px) {
+/* #### Tablets*/
+@media (min-width: 481px) and (max-width: 768px) {
   #about {
     text-align: center;
   }
-
   .profile {
     width: 30%;
-    margin-bottom: 8%;
-  }
-  .profile-div {
-    padding-right: 11%;
-    padding-top: 4%;
-  }
-  .about-div {
-    padding: 0;
-  }
-  .about-text-div {
-    text-align: center;
-    padding-left: 17%;
+    margin-bottom: 5%;
   }
   .title-btn {
     margin-bottom: 25%;
@@ -267,12 +248,98 @@ ul#skills-list li {
   .carousel-item {
     padding: 5% 10%;
   }
+  
   #python-col {
-    width: 50%;
+    width: 35%;
     margin-bottom: 5%;
   }
   #c-col {
     width: 50%;
+    margin-bottom: 5%;
+  }
+  #java-col {
+    width: 30%;
+    margin-bottom: 5%;
+  }
+  #html-col {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+  #css-col {
+    width: 35%;
+    margin-bottom: 7%;
+  }
+  #bootstrap-col {
+    width: 45%;
+    margin-bottom: 5%;
+  }
+  #linux-col {
+    width: 38%;
+  }
+  #git-col {
+    width: 43%;
+  }
+
+  #madeWith-htmlimg,
+  #madeWith-bootstrapimg {
+    width: 7%;
+    margin: 0 1% 0;
+  }
+  #madeWith-cssimg {
+    width: 6%;
+    margin: 0 1% 0;
+  }
+}
+
+/* #### Mobile Phones#### */
+@media (max-width: 480px) {
+  #about {
+    text-align: center;
+  }
+
+  .profile {
+    margin-top: 5%;
+    width: 30%;
+    margin-bottom: 8%;
+  }
+  .profile-div {
+    padding-right: 11%;
+    padding-top: 4%;
+  }
+  .about-div {
+    padding: 0;
+  }
+  .about-text-div {
+    text-align: center;
+    
+  }
+  .title-btn {
+    margin-bottom: 25%;
+    margin-top: 10%;
+  }
+  .title-h1 {
+    padding-bottom: 7%;
+  }
+  .container-fluid {
+    padding: 1% 5%;
+  }
+  .project-text {
+    padding-bottom: 10%;
+    font-size: 0.8rem;
+  }
+  .carousel-item {
+    padding: 5% 10%;
+  }
+  #skills-list{
+    margin: 2%;
+  }
+  
+  #python-col {
+    width: 45%;
+    margin-bottom: 3%;
+  }
+  #c-col {
+    width: 55%;
     margin-bottom: 5%;
   }
   #java-col {
@@ -282,30 +349,24 @@ ul#skills-list li {
   #html-col {
     width: 50%;
     margin-bottom: 5%;
-    margin-left: 10%;
+    margin-left: 7%;
   }
   #css-col {
     width: 45%;
     margin-bottom: 7%;
   }
   #bootstrap-col {
-    width: 50%;
+    margin-left: 3%;
+    margin-top: 7%;
+    width: 47%;
     margin-bottom: 5%;
-    margin-left: 5%;
   }
   #linux-col {
-    width: 42%;
-    margin-left: 21;
+    width: 43%;
   }
   #git-col {
+    margin-left: 5%;
     width: 48%;
-
-    margin-left: 10%;
-  }
-
-  .card {
-    padding: 0;
-    width: 70%;
   }
   #madeWith-htmlimg,
   #madeWith-bootstrapimg {
