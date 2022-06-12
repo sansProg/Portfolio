@@ -39,7 +39,9 @@
 .blue-highlighted {
   color: #3b82f6;
 }
-
+.yellow-highlighted{
+  background-color: #ffc800;
+}
 .title-h1 {
   font-family: "Anton", sans-serif;
   padding: 2%;
