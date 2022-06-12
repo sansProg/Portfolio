@@ -307,4 +307,13 @@ ul#skills-list li {
     padding: 0;
     width: 70%;
   }
+  #madeWith-htmlimg,
+  #madeWith-bootstrapimg {
+    width: 7%;
+    margin: 0 1% 0;
+  }
+  #madeWith-cssimg {
+    width: 6%;
+    margin: 0 1% 0;
+  }
 }
