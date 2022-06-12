@@ -1,0 +1,310 @@
+#title {
+  background-color: #112d4e;
+  text-align: center;
+}
+.sm-logo {
+  width: 20%;
+  padding-right: 0.8rem;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+}
+.navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
+  border-bottom: 1px solid #ffc800;
+  opacity: 1;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+.title-h1,
+.title-h2 {
+  color: #fff;
+}
+.blue-highlighted {
+  color: #3b82f6;
+}
+
+.title-h1 {
+  font-family: "Anton", sans-serif;
+  padding: 2%;
+  font-size: 4rem;
+  word-spacing: 1rem;
+}
+
+.title-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.title-btn {
+  margin: 4% 0.5% 8%;
+}
+h1 {
+  font-family: "Anton", sans-serif;
+  padding: 4% 4% 0;
+  font-size: 2.5rem;
+  word-spacing: 0.5rem;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#about {
+  text-align: center;
+}
+.profile {
+  width: 60%;
+  margin-bottom: 15%;
+  margin-right: 0;
+  padding-left: 10%;
+}
+.about-text {
+  line-height: 2;
+  margin-left: 0;
+  padding-right: 15%;
+  padding-top: 2%;
+}
+
+.about-div {
+  border: 5px solid #193c64;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+}
+
+hr {
+  border: dotted #a2c0e6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin-bottom: 7%;
+}
+p {
+  color: #a2c0e6;
+}
+#projects {
+  text-align: center;
+  background-color: #dfe8f1;
+}
+.project-image {
+  border-radius: 2%;
+  width: 80%;
+  border: 5px solid #204875;
+  padding: 5%;
+}
+.madeWith-div {
+  margin-top: 2%;
+}
+.madewith-text {
+  color: #091c31;
+}
+#madeWith-htmlimg,
+#madeWith-bootstrapimg {
+  width: 5%;
+  margin: 0 1% 0;
+}
+#madeWith-cssimg {
+  width: 4%;
+  margin: 0 1% 0;
+}
+
+.project-image:hover {
+  opacity: 65%;
+}
+.project-text {
+  padding-bottom: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #193c64;
+}
+
+/* below is the code used to change the colour of the carousel control to #112d4e */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23112d4e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23112d4e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#skills {
+  text-align: center;
+}
+.skill-img {
+  width: inherit;
+}
+#skills-list {
+  padding: 8% 5% 0%;
+  border: 5px solid #112d4e;
+  border-radius: 8%;
+  background-color: #091c31;
+  margin-bottom: 10%;
+}
+ul#skills-list li {
+  display: inline;
+}
+#python-col {
+  width: 50%;
+  margin-bottom: 7%;
+}
+#c-col {
+  height: 60%;
+  width: 60%;
+  margin-bottom: 7%;
+}
+#java-col {
+  height: 40%;
+  width: 40%;
+  margin-bottom: 7%;
+}
+#html-col {
+  height: 50%;
+  width: 50%;
+  margin-bottom: 7%;
+}
+#css-col {
+  height: 40%;
+  width: 40%;
+  margin-bottom: 7%;
+}
+#bootstrap-col {
+  height: 50%;
+  width: 50%;
+  margin-bottom: 7%;
+}
+#linux-col {
+  height: 40%;
+  width: 40%;
+  margin-bottom: 7%;
+}
+#git-col {
+  height: 40%;
+  width: 40%;
+  margin-bottom: 7%;
+}
+.skills-text {
+  color: #fff;
+}
+
+#contact {
+  text-align: center;
+  background-color: #091c31;
+  padding-bottom: 3%;
+}
+.card-div {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.card {
+  padding: 5%;
+  margin: 5%;
+  background-color: #112d4e;
+  height: 80%;
+  width: 110%;
+  border: 1px solid #a2c0e6;
+}
+.card-header {
+  color: #a2c0e6;
+  border-bottom: 1px solid #a2c0e6;
+}
+.card-body {
+  color: #fff;
+}
+.card:hover {
+  opacity: 80%;
+}
+
+@media (max-width: 1028px) {
+  #about {
+    text-align: center;
+  }
+
+  .profile {
+    width: 30%;
+    margin-bottom: 8%;
+  }
+  .profile-div {
+    padding-right: 11%;
+    padding-top: 4%;
+  }
+  .about-div {
+    padding: 0;
+  }
+  .about-text-div {
+    text-align: center;
+    padding-left: 17%;
+  }
+  .title-btn {
+    margin-bottom: 25%;
+    margin-top: 10%;
+  }
+  .title-h1 {
+    padding-bottom: 7%;
+  }
+  .container-fluid {
+    padding: 1% 5%;
+  }
+  .project-text {
+    padding-bottom: 10%;
+  }
+  .carousel-item {
+    padding: 5% 10%;
+  }
+  #python-col {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  #c-col {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  #java-col {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+  #html-col {
+    width: 50%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+  }
+  #css-col {
+    width: 45%;
+    margin-bottom: 7%;
+  }
+  #bootstrap-col {
+    width: 50%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+  #linux-col {
+    width: 42%;
+    margin-left: 21;
+  }
+  #git-col {
+    width: 48%;
+
+    margin-left: 10%;
+  }
+
+  .card {
+    padding: 0;
+    width: 70%;
+  }
+}
