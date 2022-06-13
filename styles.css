@@ -320,6 +320,9 @@ ul#skills-list li {
     padding-right: 11%;
     padding-top: 4%;
   }
+  #about{
+    padding-top: 7%;
+  }
   .about-div {
     padding: 0;
   }
@@ -340,12 +343,18 @@ ul#skills-list li {
   .container-fluid {
     padding: 1% 5%;
   }
+  #projects{
+    padding-top: 7%;
+  }
   .project-text {
     padding-bottom: 10%;
     font-size: 0.8rem;
   }
   .carousel-item {
     padding: 5% 10%;
+  }
+  #skills{
+    padding-top: 7%;
   }
   #skills-list{
     margin: 2%;
@@ -395,7 +404,7 @@ ul#skills-list li {
     margin: 0 1% 0;
   }
   #contact{
-    padding-top: 5%;
+    padding-top: 10%;
     
   }
   .card{
