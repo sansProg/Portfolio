@@ -241,9 +241,19 @@ ul#skills-list li {
 @media (min-width: 481px) and (max-width: 768px) {
   #about {
     text-align: center;
+    padding-top:5%;
+  }
+  #skills{
+    padding-top:5%;
+  }
+  #projects{
+    padding-top:5%;
+  }
+  #contact{
+    padding-top:5%;
   }
   .profile {
-    width: 30%;
+    width: 15%;
     margin-bottom: 5%;
   }
   .title-btn {
