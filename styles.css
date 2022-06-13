@@ -2,6 +2,10 @@
   background-color: #112d4e;
   text-align: center;
 }
+.card-body a{
+  color: #ffc800;
+  text-decoration: underline;
+}
 .sm-logo {
   width: 20%;
   padding-right: 0.8rem;
@@ -27,10 +31,6 @@
   border-bottom: 1px solid #ffc800;
   opacity: 1;
 }
-.card-body a{
-  color: #ffc800;
-  text-decoration: underline;
-}
 
 .container-fluid {
   padding: 1% 15%;
@@ -45,7 +45,9 @@
 }
 .yellow-highlighted{
   background-color: #ffc800;
+  
 }
+
 .title-h1 {
   font-family: "Anton", sans-serif;
   padding: 2%;
@@ -87,6 +89,7 @@ h2 {
 
 .about-div {
   border: 5px solid #193c64;
+  
   margin-left: 5%;
   margin-right: 5%;
   padding: 5%;
@@ -104,6 +107,8 @@ p {
 #projects {
   text-align: center;
   background-color: #dfe8f1;
+  margin: 2%;
+  border-radius: 8%;
 }
 
 .project-image {
@@ -111,6 +116,7 @@ p {
   width: 80%;
   border: 5px solid #204875;
   padding: 5%;
+  
 }
 .madeWith-div {
   margin-top: 2%;
@@ -150,16 +156,18 @@ p {
 
 #skills {
   text-align: center;
+  background-color: #091c31;
+  border: 5px solid #091c31;
+  margin: 2%;
+  border-radius: 8%;
+
 }
 .skill-img {
   width: inherit;
 }
 #skills-list {
   padding: 8% 5% 0%;
-  border: 5px solid #112d4e;
-  border-radius: 8%;
-  background-color: #091c31;
-  margin-bottom: 10%;
+  
 }
 ul#skills-list li {
   display: inline;
@@ -326,6 +334,9 @@ ul#skills-list li {
   .title-h1 {
     padding-bottom: 7%;
   }
+  .title-h2{
+    font-size: 1rem;
+  }
   .container-fluid {
     padding: 1% 5%;
   }
@@ -382,5 +393,13 @@ ul#skills-list li {
   #madeWith-cssimg {
     width: 6%;
     margin: 0 1% 0;
+  }
+  #contact{
+    padding-top: 5%;
+    
+  }
+  .card{
+    margin-left: 8%;
+    margin-right: 8%;
   }
 }
