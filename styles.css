@@ -273,20 +273,25 @@ ul#skills-list li {
     padding: 5% 10%;
   }
   
+  #skills-list{
+    padding: 4% 5% 0;
+  }
   #python-col {
     width: 35%;
     margin-bottom: 5%;
+    margin-top: 3%;
   }
   #c-col {
+    margin-top: 2%;
     width: 50%;
     margin-bottom: 5%;
   }
   #java-col {
     width: 30%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
   }
   #html-col {
-    width: 40%;
+    width: 45%;
     margin-bottom: 5%;
   }
   #css-col {
@@ -294,6 +299,7 @@ ul#skills-list li {
     margin-bottom: 7%;
   }
   #bootstrap-col {
+    margin-top: 3%;
     width: 45%;
     margin-bottom: 5%;
   }
