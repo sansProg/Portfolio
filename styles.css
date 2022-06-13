@@ -313,6 +313,10 @@ ul#skills-list li {
     width: 6%;
     margin: 0 1% 0;
   }
+  .card-div{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 /* #### Mobile Phones#### */
@@ -417,8 +421,8 @@ ul#skills-list li {
     padding-top: 10%;
     
   }
-  .card{
-    margin-left: 8%;
-    margin-right: 8%;
+  .card-div{
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
