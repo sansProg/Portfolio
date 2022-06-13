@@ -107,8 +107,8 @@ p {
 #projects {
   text-align: center;
   background-color: #dfe8f1;
-  margin: 2%;
-  border-radius: 4%;
+  margin: 1%;
+  border-radius: 1%;
 }
 
 .project-image {
@@ -158,8 +158,8 @@ p {
   text-align: center;
   background-color: #091c31;
   border: 5px solid #091c31;
-  margin: 2%;
-  border-radius: 4%;
+  margin: 1%;
+  border-radius: 1%;
 
 }
 .skill-img {
