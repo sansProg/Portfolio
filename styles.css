@@ -174,43 +174,46 @@ ul#skills-list li {
 }
 #python-col {
   width: 50%;
-  margin-bottom: 7%;
+  
   margin-top:2%;
 }
 #c-col {
   height: 60%;
   width: 60%;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
 }
 #java-col {
   height: 40%;
   width: 40%;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
 }
 #html-col {
   height: 50%;
   width: 50%;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
+  margin-top: 1%;
 }
 #css-col {
-  height: 40%;
+  height: 35%;
   width: 40%;
-  margin-bottom: 9%;
+  margin-bottom: 4%;
 }
 #bootstrap-col {
   height: 50%;
   width: 50%;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
+  margin-top: 2%;
 }
 #linux-col {
   height: 40%;
   width: 40%;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
 }
 #git-col {
   height: 40%;
   width: 40%;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
+  margin-top: 1%;
 }
 .skills-text {
   color: #fff;
