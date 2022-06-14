@@ -437,8 +437,8 @@ ul#skills-list li {
     margin-right: 10%;
   }
   .navbar-brand {
-  font-size: 1rem;
-  font-weight: bold;
-  font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Montserrat Alternates", sans-serif;
   }
 }
