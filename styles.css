@@ -90,7 +90,8 @@ h2 {
 }
 
 .about-div {
-  border: 5px solid #193c64;
+  border: 3.5px solid #193c64;
+  border-radius:1%;
   margin-left: 5%;
   margin-right: 5%;
   padding: 5%;
@@ -116,11 +117,14 @@ p {
 .project-image {
   border-radius: 2%;
   width: 80%;
+  border: 1px solid #193c64;
+
   
 }
 .carousel-item{
   background-color: #e3ebf3 ;
-  border: 5px solid #204875;
+  border: 3.5px solid #204875;
+  border-radius: 1%;
 }
 
 
