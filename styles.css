@@ -1,5 +1,5 @@
 #title {
-  background-color: #112d4e;
+  background-image: url("space.gif");
   text-align: center;
 }
 .card-body a{
@@ -76,6 +76,7 @@ h2 {
 }
 #about {
   text-align: center;
+  
 }
 .profile {
   width: 60%;
@@ -83,16 +84,17 @@ h2 {
 }
 .about-text {
   line-height: 2;
+  
 
   padding-top: 2%;
 }
 
 .about-div {
   border: 5px solid #193c64;
-  
   margin-left: 5%;
   margin-right: 5%;
   padding: 5%;
+  background-color: #e3ebf3;
 }
 
 hr {
@@ -106,20 +108,25 @@ p {
 }
 #projects {
   text-align: center;
-  background-color: #dfe8f1;
-  margin: 1%;
-  border-radius: 1%;
 }
-
+#projects h1{
+  
+  padding: 0 4% 0;
+}
 .project-image {
   border-radius: 2%;
   width: 80%;
-  border: 5px solid #204875;
-  padding: 5%;
   
 }
+.carousel-item{
+  background-color: #e3ebf3 ;
+  border: 5px solid #204875;
+}
+
+
 .madeWith-div {
   margin-top: 2%;
+  
 }
 .madewith-text {
   color: #091c31;
@@ -143,6 +150,7 @@ p {
   font-size: 1.5rem;
   line-height: 1.5;
   color: #193c64;
+  
 }
 
 /* below is the code used to change the colour of the carousel control to #112d4e */
@@ -221,14 +229,16 @@ ul#skills-list li {
 
 #contact {
   text-align: center;
-  background-color: #091c31;
+  background-image: url("space.gif");
   padding-bottom: 3%;
+  
 }
 
 .card {
   background-color: #112d4e;
   margin-bottom: 10%;
   border: 1px solid #a2c0e6;
+  opacity: 75%;
 }
 .card-header {
   color: #a2c0e6;
@@ -238,7 +248,7 @@ ul#skills-list li {
   color: #fff;
 }
 .card:hover {
-  opacity: 80%;
+  opacity: 50%;
 }
 
 /* #### Tablets*/
@@ -442,3 +452,6 @@ ul#skills-list li {
     font-family: "Montserrat Alternates", sans-serif;
   }
 }
+
+
+
