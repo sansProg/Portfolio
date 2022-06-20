@@ -37,10 +37,7 @@
   padding: 1% 15%;
 }
 
-.title-h1,
-.title-h2,
-h1,
-h2 {
+.title-h1,.title-h2,h1,h2{
   color: #fff;
 }
 .blue-highlighted {
