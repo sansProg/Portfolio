@@ -29,6 +29,7 @@
 }
 .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
   border-bottom: 1px solid #ffc800;
+  font-weight: bold;
   opacity: 1;
 }
 
