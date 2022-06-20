@@ -290,7 +290,7 @@ ul#skills-list li {
     line-height: 2rem;
   }
   .about-div {
-    border: 2px solid #204875;
+    border: 2.1px solid #204875;
     margin-left: 8%;
     margin-right: 8%;
   }
@@ -300,7 +300,7 @@ ul#skills-list li {
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 2px solid #204875;
+    border: 2.1px solid #204875;
   }
 
   #skills-list {
@@ -382,7 +382,7 @@ ul#skills-list li {
     padding: 0;
     margin: 5%;
     padding-bottom: 1%;
-    border: 1.5px solid #204875;
+    border: 2px solid #204875;
   }
 
   .about-text {
@@ -411,7 +411,7 @@ ul#skills-list li {
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 1.5px solid #204875;
+    border: 2px solid #204875;
   }
 
   #skills {
