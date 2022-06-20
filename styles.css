@@ -38,12 +38,15 @@
 }
 
 .title-h1,
-.title-h2 {
+.title-h2,
+h1,
+h2 {
   color: #fff;
 }
 .blue-highlighted {
   color: #3b82f6;
 }
+
 .yellow-highlighted {
   background-color: #ffc800;
 }
@@ -96,7 +99,7 @@ h2 {
   margin-left: 16.5%;
   margin-right: 16.5%;
   padding: 5%;
-  background-color: #eff4f6;
+  background-color: #f6f7fc;
 }
 
 hr {
@@ -125,7 +128,7 @@ p {
   padding: 2%;
 }
 .carousel-item {
-  background-color: #eff4f6;
+  background-color: #f6f7fc;
   border: 3px solid #204875;
   border-radius: 1%;
 }
@@ -157,13 +160,13 @@ p {
   color: #193c64;
 }
 
-/* below is the code used to change the colour of the carousel control to #112d4e */
+/* below is the code used to change the colour of the carousel control to #193c64 */
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23112d4e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23193c64' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23112d4e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23193c64' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 #skills {
