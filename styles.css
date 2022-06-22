@@ -1,3 +1,6 @@
+body {
+  background-color: #00060c;
+}
 #title {
   background-image: url("9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
   text-align: center;
@@ -20,7 +23,7 @@
 }
 
 .nav-item {
-  padding: 0 9px;
+  padding: 0 10px;
 }
 
 .nav-link {
@@ -37,7 +40,10 @@
   padding: 1% 15%;
 }
 
-.title-h1,.title-h2,h1,h2{
+.title-h1,
+.title-h2,
+h1,
+h2 {
   color: #fff;
 }
 .blue-highlighted {
@@ -46,6 +52,7 @@
 
 .yellow-highlighted {
   background-color: #ffc800;
+  color: #051425;
 }
 
 .title-h1 {
@@ -85,22 +92,22 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
-  color: #193c64;
+  color: #e3edfc;
   text-align: left;
   padding-top: 2%;
 }
 
 .about-div {
-  border: 3px solid #193c64;
-  border-radius: 1%;
+  border: 3px solid #204875;
+  border-radius: 10%;
   margin-left: 16.5%;
   margin-right: 16.5%;
   padding: 5%;
-  background-color: #f3f6fa;
+  background-color: #051425;
 }
 
 hr {
-  border: dotted #a2c0e6 6px;
+  border: dotted #385883 6px;
   border-bottom: none;
   width: 2%;
   margin-bottom: 5%;
@@ -119,22 +126,22 @@ p {
 .project-image {
   border-radius: 2%;
   width: 80%;
-  border: 1px solid #193c64;
+  border: 5px double #204875;
 }
 .carousel-inner {
   padding: 2%;
 }
 .carousel-item {
-  background-color: #f3f6fa;
+  background-color: #051425;
   border: 3px solid #204875;
-  border-radius: 1%;
+  border-radius: 10%;
 }
 
 .madeWith-div {
   margin-top: 2%;
 }
 .madewith-text {
-  color: #091c31;
+  color: #fff;
 }
 #madeWith-htmlimg,
 #madeWith-bootstrapimg {
@@ -145,6 +152,13 @@ p {
   width: 4%;
   margin: 0 1% 0;
 }
+#madeWith-jsimg {
+  width: 8%;
+}
+#madeWith-jqueryimg {
+  background-color: #fff;
+  width: 10%;
+}
 
 .project-image:hover {
   opacity: 65%;
@@ -154,22 +168,22 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
-  color: #193c64;
+  color: #e3edfc;
 }
 
-/* below is the code used to change the colour of the carousel control to #193c64 */
+/* below is the code used to change the colour of the carousel control to #204875 */
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23193c64' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23204875' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23193c64' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23204875' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 #skills {
   text-align: center;
   background-color: #051425;
-
+  border: 3px solid #204875;
   margin: 1% 16.5% 1%;
   border-radius: 10%;
 }
@@ -225,6 +239,18 @@ ul#skills-list li {
   margin-bottom: 4%;
   margin-top: 1%;
 }
+#js-col {
+  height: 90%;
+  width: 90%;
+  margin-bottom: 4%;
+  margin-top: 1%;
+}
+#jquery-col {
+  
+  width: 80%;
+  margin-bottom: 4%;
+  margin-top: 5%;
+}
 .skills-text {
   color: #fff;
 }
@@ -239,7 +265,7 @@ ul#skills-list li {
   background-color: #071a30;
   margin-bottom: 10%;
   border: 1px solid #a2c0e6;
-  opacity: 70%;
+  opacity: 60%;
 }
 .card-header {
   color: #a2c0e6;
@@ -263,6 +289,7 @@ ul#skills-list li {
     padding-top: 5%;
     margin-left: 7%;
     margin-right: 7%;
+    border: 2px solid #204875;
   }
   #projects {
     padding-top: 5%;
@@ -291,7 +318,7 @@ ul#skills-list li {
     line-height: 2rem;
   }
   .about-div {
-    border: 2.1px solid #204875;
+    border: 2px solid #204875;
     margin-left: 8%;
     margin-right: 8%;
   }
@@ -301,7 +328,7 @@ ul#skills-list li {
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 2.1px solid #204875;
+    border: 2px solid #204875;
   }
 
   #skills-list {
@@ -340,6 +367,17 @@ ul#skills-list li {
   #git-col {
     width: 38%;
   }
+  #js-col {
+    width: 70%;
+    margin-bottom: 4%;
+    margin-top: 1%;
+  }
+  #jquery-col {
+    
+    width: 60%;
+    margin-bottom: 4%;
+    margin-top: 5%;
+  }
 
   #madeWith-htmlimg,
   #madeWith-bootstrapimg {
@@ -350,6 +388,13 @@ ul#skills-list li {
     width: 6%;
     margin: 0 1% 0;
   }
+  #madeWith-jsimg {
+    width: 10%;
+  }
+  #madeWith-jqueryimg {
+    width: 12%;
+  }
+
   .card-div {
     margin-left: 15%;
     margin-right: 15%;
@@ -383,12 +428,13 @@ ul#skills-list li {
     padding: 0;
     margin: 5%;
     padding-bottom: 1%;
-    border: 2px solid #204875;
+    border: 1.5px solid #204875;
   }
 
   .about-text {
     text-align: center;
     font-size: 0.8rem;
+    line-height: 2;
   }
   .title-btn {
     margin-bottom: 25%;
@@ -413,12 +459,13 @@ ul#skills-list li {
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 2px solid #204875;
+    border: 1.5px solid #204875;
   }
 
   #skills {
     padding-top: 7%;
     margin: 1% 5% 1%;
+    border: 2px solid #204875;
   }
   #skills-list {
     margin: 2%;
@@ -458,14 +505,32 @@ ul#skills-list li {
     margin-left: 7%;
     width: 48%;
   }
+  #js-col {
+    
+    width: 50%;
+    margin-bottom: 4%;
+    margin-top: 1%;
+  }
+  #jquery-col {
+    
+    width: 50%;
+    margin-bottom: 4%;
+    margin-top: 5%;
+  }
   #madeWith-htmlimg,
   #madeWith-bootstrapimg {
     width: 7%;
     margin: 0 1% 0;
   }
   #madeWith-cssimg {
-    width: 6%;
+    width: 5%;
     margin: 0 1% 0;
+  }
+  #madeWith-jsimg {
+    width: 10%;
+  }
+  #madeWith-jqueryimg {
+    width: 12%;
   }
   #contact {
     padding-top: 10%;
