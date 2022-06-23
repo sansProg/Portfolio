@@ -31,12 +31,15 @@ body {
 }
 
 .nav-link {
+  color: #fff;
   font-size: 1.2rem;
-  opacity:80%;
+  opacity:95%;
   font-family: "Inter", sans-serif;
 }
 .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
   border-bottom: 1px solid #ffc800;
+  opacity: 100%;
+  font-size:1.3rem;
   font-weight: bold;
 }
 
