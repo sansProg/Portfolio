@@ -27,11 +27,11 @@ body {
 }
 
 .nav-item {
-  padding: 0 10px;
+  padding: 0 10.1px;
 }
 
 .nav-link {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-family: "Inter", sans-serif;
 }
 .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
