@@ -27,19 +27,17 @@ body {
 }
 
 .nav-item {
-  padding: 0 11px;
+  padding: 0 10px;
 }
-.navbar #navbarTogglerDemo02 .navbar-nav li a {
-  color:#fff;
+
+.nav-link {
+  font-size: 1.15rem;
   font-family: "Inter", sans-serif;
-  opacity: 50%;
-  font-size:1.2rem;
 }
 .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
   border-bottom: 1px solid #ffc800;
-  opacity: 90%;
-  font-size:1.3rem;
   font-weight: bold;
+  opacity: 1;
 }
 
 .container-fluid {
@@ -57,26 +55,26 @@ h2 {
 }
 
 .yellow-highlighted {
-  
-  color: #ffc800;
+  background-color: #ffc800;
+  color: #051425;
 }
 
 .title-h1 {
   font-family: "Anton", sans-serif;
   padding: 2%;
-  font-size: 5.1rem;
+  font-size: 5rem;
   word-spacing: 1rem;
   margin: 4%;
 }
 
 .title-h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   margin: 2%;
 }
 .title-btn {
-  margin: 7% 0.5% 13%;
+  margin: 5% 0.5% 13%;
 }
 h1 {
   font-family: "Anton", sans-serif;
@@ -90,8 +88,8 @@ h2 {
   line-height: 1.5;
 }
 #about {
-  text-align: center;
   padding-top: 2%;
+  text-align: center;
 }
 .profile {
   width: 70%;
@@ -415,10 +413,6 @@ h6{
   #madeWith-jqueryimg {
     width: 12%;
   }
-  
-  .card{
-    margin-bottom:30%;
-  }
 
   .card-div {
     margin-left: 15%;
@@ -560,9 +554,6 @@ h6{
   }
   #contact {
     padding-top: 10%;
-  }
-  .card{
-    margin-bottom: 30%;
   }
   .card-div {
     margin-left: 10%;
