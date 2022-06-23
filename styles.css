@@ -280,7 +280,7 @@ h6{
 .card {
   background-color: #071a30;
   margin-top: 15%;
-  margin-bottom: 40%;
+  margin-bottom: 50%;
   border: 1px solid #a2c0e6;
   border-radius:10%;
   opacity: 60%;
@@ -412,6 +412,10 @@ h6{
   }
   #madeWith-jqueryimg {
     width: 12%;
+  }
+  
+  .card{
+    margin-bottom:30%;
   }
 
   .card-div {
@@ -554,6 +558,9 @@ h6{
   }
   #contact {
     padding-top: 10%;
+  }
+  .card{
+    margin-bottom: 30%;
   }
   .card-div {
     margin-left: 10%;
