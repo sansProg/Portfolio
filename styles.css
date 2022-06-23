@@ -1,8 +1,12 @@
 body {
   background-color: #00060c;
+  
+  
 }
 #title {
   background-image: url("9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
+  background-repeat: repeat;
+ 
   text-align: center;
 }
 .card-body a {
@@ -27,7 +31,7 @@ body {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-family: "Inter", sans-serif;
 }
 .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
@@ -58,17 +62,19 @@ h2 {
 .title-h1 {
   font-family: "Anton", sans-serif;
   padding: 2%;
-  font-size: 4rem;
+  font-size: 5rem;
   word-spacing: 1rem;
+  margin: 4%;
 }
 
 .title-h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.5;
+  margin: 2%;
 }
 .title-btn {
-  margin: 4% 0.5% 8%;
+  margin: 5% 0.5% 11%;
 }
 h1 {
   font-family: "Anton", sans-serif;
@@ -307,6 +313,7 @@ ul#skills-list li {
     margin-top: 10%;
   }
   .title-h1 {
+    font-size: 4rem;
     padding-bottom: 7%;
   }
   .container-fluid {
@@ -441,6 +448,7 @@ ul#skills-list li {
     margin-top: 10%;
   }
   .title-h1 {
+    font-size: 3.5rem;
     padding-bottom: 7%;
   }
   .title-h2 {
