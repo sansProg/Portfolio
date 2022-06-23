@@ -74,7 +74,7 @@ h2 {
   margin: 2%;
 }
 .title-btn {
-  margin: 5% 0.5% 11%;
+  margin: 5% 0.5% 13%;
 }
 h1 {
   font-family: "Anton", sans-serif;
@@ -264,13 +264,14 @@ ul#skills-list li {
 #contact {
   text-align: center;
   background-image: url("9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
-  padding-bottom: 3%;
+  padding-bottom: 10%;
 }
 
 .card {
   background-color: #071a30;
   margin-bottom: 10%;
   border: 1px solid #a2c0e6;
+  border-radius:2%;
   opacity: 60%;
 }
 .card-header {
