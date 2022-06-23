@@ -27,17 +27,17 @@ body {
 }
 
 .nav-item {
-  padding: 0 10px;
+  padding: 0 11px;
 }
 
 .nav-link {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
+  opacity:80%;
   font-family: "Inter", sans-serif;
 }
 .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
   border-bottom: 1px solid #ffc800;
   font-weight: bold;
-  opacity: 1;
 }
 
 .container-fluid {
@@ -62,19 +62,19 @@ h2 {
 .title-h1 {
   font-family: "Anton", sans-serif;
   padding: 2%;
-  font-size: 5rem;
+  font-size: 5.1rem;
   word-spacing: 1rem;
   margin: 4%;
 }
 
 .title-h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 1.5;
   margin: 2%;
 }
 .title-btn {
-  margin: 7% 0.5% 15%;
+  margin: 7% 0.5% 13%;
 }
 h1 {
   font-family: "Anton", sans-serif;
