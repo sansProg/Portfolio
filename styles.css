@@ -260,18 +260,28 @@ ul#skills-list li {
 .skills-text {
   color: #fff;
 }
-
+h6{
+  color: #ffc800;
+  opacity: 50%;
+  font-weight: bold;
+}
+.whiteh6{
+  color: #fff;
+  opacity: 90%;
+  font-weight: bold;
+}
 #contact {
   text-align: center;
   background-image: url("9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
-  padding-bottom: 10%;
+  padding-bottom: 3%;
 }
 
 .card {
   background-color: #071a30;
-  margin-bottom: 10%;
+  margin-top: 15%;
+  margin-bottom: 50%;
   border: 1px solid #a2c0e6;
-  border-radius:2%;
+  border-radius:10%;
   opacity: 60%;
 }
 .card-header {
