@@ -29,12 +29,11 @@ body {
 .nav-item {
   padding: 0 11px;
 }
-
-.nav-link {
-  color: #fff;
-  font-size: 1.2rem;
-  opacity:95%;
+.navbar #navbarTogglerDemo02 .navbar-nav li a {
+  color:#fff;
   font-family: "Inter", sans-serif;
+  opacity: 95%;
+  font-size:1.2rem;
 }
 .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
   border-bottom: 1px solid #ffc800;
