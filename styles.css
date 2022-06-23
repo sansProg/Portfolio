@@ -55,8 +55,8 @@ h2 {
 }
 
 .yellow-highlighted {
-  background-color: #ffc800;
-  color: #051425;
+  
+  color: #ffc800;
 }
 
 .title-h1 {
@@ -280,7 +280,7 @@ h6{
 .card {
   background-color: #071a30;
   margin-top: 15%;
-  margin-bottom: 50%;
+  margin-bottom: 40%;
   border: 1px solid #a2c0e6;
   border-radius:10%;
   opacity: 60%;
