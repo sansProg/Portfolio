@@ -462,7 +462,7 @@ h6{
     padding: 0;
     margin: 5%;
     padding-bottom: 1%;
-    border: 1.5px solid #133153;
+    border: 1.5px solid #102c4b;
     background-color: #071225;
   }
 
@@ -476,7 +476,7 @@ h6{
     
   }
   body{
-    background-color: #000b1a;
+    background-color: #000a18;
   }
   .title-btn {
     margin-bottom: 25%;
@@ -502,14 +502,14 @@ h6{
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 1.5px solid #133153;
+    border: 1.5px solid #102c4b;
     background-color: #071225;
   }
 
   #skills {
     padding-top: 7%;
     margin: 1% 5% 1%;
-    border: 2px solid #133153;
+    border: 2px solid #102c4b;
     background-color: #071225;
   }
   #skills-list {
