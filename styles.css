@@ -477,11 +477,11 @@ h6{
   }
   
   .title-h1 {
-    font-size: 3.5rem;
+    font-size: 3.55rem;
     padding-bottom: 7%;
   }
   .title-h2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .container-fluid {
     padding: 1% 5%;
@@ -597,9 +597,9 @@ h6{
     font-size: 1rem;
   }
   .title-btn{
-    font-size: 0.8rem;
-    margin-top: 15%;
-    margin-bottom:35%;
+    font-size: 0.87rem;
+    margin-top: 20%;
+    margin-bottom:30%;
   }
   body{
     background-color: #01040d  ;
