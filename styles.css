@@ -462,8 +462,8 @@ h6{
     padding: 0;
     margin: 5%;
     padding-bottom: 1%;
-    border: 1.5px solid #102c4b;
-    background-color: #071225;
+    border: 2px solid #07192e;
+    background-color:#050c1a;
   }
 
   .about-text {
@@ -475,9 +475,8 @@ h6{
     background-image: url("space2.gif");
     
   }
-  body{
-    background-color: #000a18;
-  }
+  
+    background-
   .title-btn {
     margin-bottom: 25%;
     margin-top: 10%;
@@ -502,15 +501,15 @@ h6{
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 1.5px solid #102c4b;
-    background-color: #071225;
+    border: 2px solid #07192e;
+    background-color:#050c1a;
   }
 
   #skills {
     padding-top: 7%;
     margin: 1% 5% 1%;
-    border: 2px solid #102c4b;
-    background-color: #071225;
+    border: 2px solid #07192e;
+    background-color:#050c1a;
   }
   #skills-list {
     margin: 2%;
@@ -606,7 +605,18 @@ h6{
   }
   .title-btn{
     font-size: 0.8rem;
+    margin-top: 15%;
+    margin-bottom:25%;
   }
+  body{
+    background-color: #01040d  ;
+  }
+  h1 {
   
+  padding: 10% 4% 0;
+  font-size: 2rem;
+  
+    
+  }
   
 }
