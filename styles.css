@@ -1,11 +1,12 @@
 body {
-  background-color: #00060c;
+  background-color: #000307;
   
   
 }
 #title {
-  background-image: url("9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
-  background-repeat: repeat;
+  background-image: url("space.webp");
+  background-repeat:repeat;
+  object-fit: fill;
  
   text-align: center;
 }
@@ -27,17 +28,19 @@ body {
 }
 
 .nav-item {
-  padding: 0 10.1px;
+  padding: 0 10px;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Inter", sans-serif;
+.navbar #navbarTogglerDemo02 .navbar-nav li a {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.1rem;
+  color: white;
+  opacity: 60%;
 }
 .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
   border-bottom: 1px solid #ffc800;
-  font-weight: bold;
-  opacity: 1;
+  font-size: 1.15rem;
+  opacity: 90%;
 }
 
 .container-fluid {
@@ -55,8 +58,8 @@ h2 {
 }
 
 .yellow-highlighted {
-  
-  color: #ffc800;
+  background-color: #ffc800;
+  color: #051425;
 }
 
 .title-h1 {
@@ -74,7 +77,7 @@ h2 {
   margin: 2%;
 }
 .title-btn {
-  margin: 5% 0.5% 13%;
+  margin: 5% 0.5% 8%;
 }
 h1 {
   font-family: "Anton", sans-serif;
@@ -105,16 +108,16 @@ h2 {
 }
 
 .about-div {
-  border: 3px solid #204875;
+  border: 3px solid #0d2744;
   border-radius: 10%;
   margin-left: 16.5%;
   margin-right: 16.5%;
   padding: 5%;
-  background-color: #051425;
+  background-color: #040c1a;
 }
 
 hr {
-  border: dotted #385883 6px;
+  border: dotted #1a3353 6px;
   border-bottom: none;
   width: 2%;
   margin-bottom: 5%;
@@ -139,8 +142,8 @@ p {
   padding: 2%;
 }
 .carousel-item {
-  background-color: #051425;
-  border: 3px solid #204875;
+  background-color: #040c1a;
+  border: 3px solid #0d2744;
   border-radius: 10%;
 }
 
@@ -178,19 +181,19 @@ p {
   color: #e3edfc;
 }
 
-/* below is the code used to change the colour of the carousel control to #204875 */
+/* below is the code used to change the colour of the carousel control to #327096 */
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23204875' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23327096' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23204875' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23327096' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 #skills {
   text-align: center;
-  background-color: #051425;
-  border: 3px solid #204875;
+  background-color: #040c1a;
+  border: 3px solid #0d2744;
   margin: 1% 16.5% 1%;
   border-radius: 10%;
 }
@@ -263,17 +266,17 @@ ul#skills-list li {
 }
 h6{
   color: #ffc800;
-  opacity: 70%;
+  opacity: 50%;
   font-weight: bold;
 }
 .whiteh6{
   color: #fff;
-  opacity: 93%;
+  opacity: 90%;
   font-weight: bold;
 }
 #contact {
   text-align: center;
-  background-image: url("9cfc4c37f3d447fb4ece4f05e64fa9a9.gif");
+  background-image: url("space.webp");
   padding-bottom: 3%;
 }
 
@@ -307,7 +310,7 @@ h6{
     padding-top: 5%;
     margin-left: 7%;
     margin-right: 7%;
-    border: 2px solid #204875;
+    border: 2px solid #0d2744;
   }
   #projects {
     padding-top: 5%;
@@ -328,6 +331,12 @@ h6{
     font-size: 4rem;
     padding-bottom: 7%;
   }
+  .title-h2{
+    font-size: 1.3rem;
+  }
+  .title-btn{
+    font-size: 1.1rem;
+  }
   .container-fluid {
     padding: 1% 5%;
   }
@@ -337,7 +346,7 @@ h6{
     line-height: 2rem;
   }
   .about-div {
-    border: 2px solid #204875;
+    border: 2px solid #0d2744;
     margin-left: 8%;
     margin-right: 8%;
   }
@@ -347,24 +356,24 @@ h6{
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 2px solid #204875;
+    border: 2px solid #0d2744;
   }
 
   #skills-list {
     padding: 4% 5% 0;
   }
   #python-col {
-    width: 30%;
+    width: 32%;
     margin-bottom: 5%;
     margin-top: 3%;
   }
   #c-col {
     margin-top: 2%;
-    width: 45%;
+    width: 47%;
     margin-bottom: 5%;
   }
   #java-col {
-    width: 25%;
+    width: 27%;
     margin-bottom: 7%;
   }
   #html-col {
@@ -372,28 +381,28 @@ h6{
     margin-bottom: 5%;
   }
   #css-col {
-    width: 30%;
+    width: 27%;
     margin-bottom: 7%;
   }
   #bootstrap-col {
     margin-top: 3%;
-    width: 40%;
+    width: 36%;
     margin-bottom: 5%;
   }
   #linux-col {
-    width: 33%;
+    width: 29%;
   }
   #git-col {
-    width: 38%;
+    width: 34%;
   }
   #js-col {
-    width: 70%;
+    width: 64%;
     margin-bottom: 4%;
     margin-top: 1%;
   }
   #jquery-col {
     
-    width: 60%;
+    width: 55%;
     margin-bottom: 4%;
     margin-top: 5%;
   }
@@ -415,11 +424,15 @@ h6{
   }
 
   .card-div {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   .card{
-    margin-bottom:30%;
+    margin-bottom: 10%;
+  }
+  h6{
+    margin-top: 10%;
+    opacity: 70%;
   }
 }
 
@@ -450,7 +463,7 @@ h6{
     padding: 0;
     margin: 5%;
     padding-bottom: 1%;
-    border: 1.5px solid #204875;
+    border: 1.5px solid #0d2744;
   }
 
   .about-text {
@@ -482,13 +495,13 @@ h6{
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 1.5px solid #204875;
+    border: 1.5px solid #0d2744;
   }
 
   #skills {
     padding-top: 7%;
     margin: 1% 5% 1%;
-    border: 2px solid #204875;
+    border: 2px solid #0d2744;
   }
   #skills-list {
     margin: 2%;
@@ -563,11 +576,27 @@ h6{
     margin-right: 10%;
   }
   .card{
-    margin-bottom:30%;
+    margin-bottom: 10%;
+  }
+  h6{
+    margin-top: 10%;
   }
   .navbar-brand {
     font-size: 1rem;
     font-weight: bold;
     font-family: "Montserrat Alternates", sans-serif;
   }
+  .navbar #navbarTogglerDemo02 .navbar-nav li a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    
+  }
+  .navbar #navbarTogglerDemo02 .navbar-nav li a:hover {
+    font-size: 1rem;
+  }
+  .title-btn{
+    font-size: 0.8rem;
+  }
+  
 }
