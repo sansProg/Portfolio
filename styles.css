@@ -64,14 +64,14 @@ h2 {
 .title-h1 {
   font-family: "Anton", sans-serif;
   padding: 2%;
-  font-size: 5.3rem;
+  font-size: 5.35rem;
   word-spacing: 1rem;
   margin: 4%;
 }
 
 .title-h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.91rem;
   line-height: 1.5;
   margin: 2%;
 }
@@ -467,7 +467,7 @@ h6{
     margin: 5%;
     padding-bottom: 1%;
     border: 2px solid #091d35;
-    background-color:#070f22;
+    background-color:#060d1f;
   }
 
   .about-text {
@@ -501,14 +501,14 @@ h6{
   .carousel-item {
     padding: 5% 10%;
     border: 2px solid #091d35;
-    background-color:#070f22;
+    background-color:#060d1f;
   }
 
   #skills {
     padding-top: 7%;
     margin: 1% 5% 1%;
     border: 2px solid #091d35;
-    background-color:#070f22;
+    background-color:#060d1f;
 
     
   }
@@ -612,7 +612,7 @@ h6{
     margin-bottom:25%;
   }
   body{
-    background-color: #01040e  ;
+    background-color: #01040f  ;
   }
   h1 {
   
