@@ -64,14 +64,14 @@ h2 {
 .title-h1 {
   font-family: "Anton", sans-serif;
   padding: 2%;
-  font-size: 5.35rem;
+  font-size: 5rem;
   word-spacing: 1rem;
   margin: 4%;
 }
 
 .title-h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.91rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   margin: 2%;
 }
@@ -466,7 +466,8 @@ h6{
     padding: 0;
     margin: 5%;
     padding-bottom: 1%;
-    
+    border: 2px solid #07192e;
+    background-color:#050d1b;
   }
 
   .about-text {
@@ -499,13 +500,15 @@ h6{
   }
   .carousel-item {
     padding: 5% 10%;
-    
+    border: 2px solid #07192e;
+    background-color:#050d1b;
   }
 
   #skills {
     padding-top: 7%;
     margin: 1% 5% 1%;
-    
+    border: 2px solid #07192e;
+    background-color:#050d1b;
 
     
   }
@@ -586,7 +589,7 @@ h6{
   }
   h6{
     margin-top: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
     font-size: 0.9rem;
   }
   .navbar-brand {
@@ -613,7 +616,11 @@ h6{
   
   padding: 10% 4% 0;
   font-size: 2rem;
-  
+
+  }
+  body {
+    background-color: #000208;
+    
     
   }
   
