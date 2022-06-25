@@ -1,5 +1,5 @@
 body {
-  background-color: #000208;
+  background-color: #000103;
   
   
 }
@@ -114,6 +114,7 @@ h2 {
   padding: 5%;
   border: 2px solid #07192e;
   background-color:#050c1a;
+
 }
 
 hr {
@@ -144,6 +145,7 @@ p {
 .carousel-item {
   border: 2px solid #07192e;
   background-color:#050c1a;
+
   border-radius: 10%;
 }
 
@@ -194,6 +196,7 @@ p {
   text-align: center;
   border: 2px solid #07192e;
   background-color:#050c1a;
+
   margin: 1% 16.5% 1%;
   border-radius: 10%;
 }
@@ -463,8 +466,8 @@ h6{
     padding: 0;
     margin: 5%;
     padding-bottom: 1%;
-    border: 2px solid #07192e;
-    background-color:#050c1a;
+    border: 2px solid #091b31;
+    background-color:#071124;
   }
 
   .about-text {
@@ -497,15 +500,15 @@ h6{
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 2px solid #07192e;
-    background-color:#050c1a;
+    border: 2px solid #091b31;
+    background-color:#071124;
   }
 
   #skills {
     padding-top: 7%;
     margin: 1% 5% 1%;
-    border: 2px solid #07192e;
-    background-color:#050c1a;
+    border: 2px solid #091b31;
+    background-color:#071124;
 
     
   }
@@ -607,7 +610,7 @@ h6{
     margin-bottom:25%;
   }
   body{
-    background-color: #01040d  ;
+    background-color: #01040e  ;
   }
   h1 {
   
