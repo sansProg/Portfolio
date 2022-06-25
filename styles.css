@@ -1,5 +1,5 @@
 body {
-  background-color: #000103;
+  background-color: #000207;
   
   
 }
@@ -112,8 +112,8 @@ h2 {
   margin-left: 16.5%;
   margin-right: 16.5%;
   padding: 5%;
-  border: 2px solid #07192e;
-  background-color:#050c1a;
+  border: 2px solid #06172b;
+  background-color:#040a16;
 
 }
 
@@ -143,8 +143,8 @@ p {
   padding: 2%;
 }
 .carousel-item {
-  border: 2px solid #07192e;
-  background-color:#050c1a;
+  border: 2px solid #06172b;
+  background-color:#040a16;
 
   border-radius: 10%;
 }
@@ -194,8 +194,8 @@ p {
 
 #skills {
   text-align: center;
-  border: 2px solid #07192e;
-  background-color:#050c1a;
+  border: 2px solid #06172b;
+  background-color:#040a16;
 
   margin: 1% 16.5% 1%;
   border-radius: 10%;
@@ -466,8 +466,8 @@ h6{
     padding: 0;
     margin: 5%;
     padding-bottom: 1%;
-    border: 2px solid #091b31;
-    background-color:#071124;
+    border: 2px solid #0a1e36;
+    background-color:#09142b;
   }
 
   .about-text {
@@ -500,15 +500,15 @@ h6{
   }
   .carousel-item {
     padding: 5% 10%;
-    border: 2px solid #091b31;
-    background-color:#071124;
+    border: 2px solid #0a1e36;
+    background-color:#09142b;
   }
 
   #skills {
     padding-top: 7%;
     margin: 1% 5% 1%;
-    border: 2px solid #091b31;
-    background-color:#071124;
+    border: 2px solid #0a1e36;
+    background-color:#09142b;
 
     
   }
@@ -588,7 +588,8 @@ h6{
     margin-bottom: 10%;
   }
   h6{
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 5%;
   }
   .navbar-brand {
     font-size: 1rem;
