@@ -1,3 +1,4 @@
+ 
 body {
   background-color: #000105;
   
@@ -460,7 +461,7 @@ h6{
     padding-top: 4%;
   }
   #about {
-    padding-top: 14%;
+    padding-top: 0% ;
   }
   .about-div {
     padding: 0;
@@ -472,7 +473,7 @@ h6{
 
   .about-text {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 2;
   }
   #title{
@@ -481,11 +482,12 @@ h6{
   }
   
   .title-h1 {
-    font-size: 3.55rem;
+    font-size: 2.3rem;
     padding-bottom: 7%;
+    margin: 0%;
   }
   .title-h2 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
   .container-fluid {
     padding: 1% 5%;
@@ -496,7 +498,7 @@ h6{
   }
   .project-text {
     padding-bottom: 10%;
-    font-size: 0.8rem;
+    font-size: 0.74rem;
   }
   .carousel-item {
     padding: 5% 10%;
@@ -505,7 +507,7 @@ h6{
   }
 
   #skills {
-    padding-top: 7%;
+    padding-top: 1%;
     margin: 1% 5% 1%;
     border: 2px solid #07192e;
     background-color:#050d1b;
@@ -581,8 +583,8 @@ h6{
     padding-top: 10%;
   }
   .card-div {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 13%;
+    margin-right: 13%;
   }
   .card{
     margin-bottom: 10%;
@@ -593,7 +595,7 @@ h6{
     font-size: 0.9rem;
   }
   .navbar-brand {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     font-family: "Montserrat Alternates", sans-serif;
   }
@@ -607,15 +609,15 @@ h6{
     font-size: 1rem;
   }
   .title-btn{
-    font-size: 0.9rem;
-    margin-top: 25%;
-    margin-bottom:25%;
+    font-size: 0.65rem;
+    margin-top: 10%;
+    margin-bottom:28%;
   }
   
   h1 {
   
   padding: 10% 4% 0;
-  font-size: 2rem;
+  font-size: 1.3rem;
 
   }
   body {
@@ -623,5 +625,16 @@ h6{
     
     
   }
-  
+  .skills-text{
+    font-size: 0.5rem ;
+  }
+  .madewith-text{
+    font-size: 0.7rem;
+  }
+  .card-header{
+    font-size: 0.8rem;
+  }
+  .card-body{
+    font-size:0.85rem;
+  }
 }
